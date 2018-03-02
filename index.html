@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Travel Planner</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> <!--As per wunderground documentation-->
+
+</head>
+<body>
+    <center><h1>Travel Planner: City/Weather</h1></center>
+</body>
+
+<div id="google-maps">
+
+</div>
+
+
+<script>
+
+    </script>
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1sWfi9lL8nkDhVnralIMRQWUrSG2OLAE&callback=myMap"></script>
+
+<div id="add-city-box"> 
+
+    <div id="selected-cities">
+        <table id="selected-cities-table" cell-padding="2px">
+            <tr>
+                <th>Order</th>
+                <th>City Name</th>
+                <th>Temperature</th>
+                <th>Weather</th>
+                <th>Humidity%</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+            </tr>
+        </table>
+    </div>
+
+    <label>Add a city to itinerary:</label>
+    <input type="text" name= "city-lookup" id="city-lookup-tb"/>
+    <button id="lookup-city-button" onclick="lookupcity()">Lookup City</button>
+
+    <div id="location-options">
+        <table id="lo-table"></table>
+    </div>
+
+</div>
+
+
+
+</html>

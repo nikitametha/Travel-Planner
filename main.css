@@ -1,0 +1,64 @@
+.body
+{
+    background-color: white;
+    display: flex;
+}
+
+table,td,th,tr{
+    border:1px solid black;
+   
+}
+
+td,th
+{
+    padding-left:25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#selected-cities
+{
+    margin:15px;
+}
+
+#location-options
+{
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+#google-maps
+{
+    width: 45%;
+    height: 60%;
+    border: 2px solid black;
+    float: left;
+}
+
+#add-city-box
+{
+    padding:10px 10px 10px 10px;
+    margin: 20px;
+    float:left;
+}
+
+#lo-table
+{
+    margin:20px;
+}
+
+#lightbluetd
+{
+    background-color: aqua;
+}
+
+#lightgreentd
+{
+    background-color: greenyellow;
+}
+
+#lightredtd
+{
+    background-color: red;
+}
